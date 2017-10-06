@@ -39,12 +39,16 @@ I/O Options:
 
 ## Sample Input: ##
   to encrypt:
+  ```
     ./python bagel.py myfile.txt
       --> crypt.txt.enc
       --> crypt.txt.key (if one isn't provided)
+  ```
   to decrypt:
+  ```
     ./python bagel.py crypt.txt -d -k crypt.txt.key
       --> crypt.txt
+  ```
 
   This also works on directories. (use the -r flag, it just zips/unzips them).
 
