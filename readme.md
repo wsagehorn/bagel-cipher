@@ -1,6 +1,6 @@
-### Bagel Cipher ###
+# Bagel Cipher #
 
-by Walter Sagehorn and Christopher Gonzalez
+#### by Walter Sagehorn and Christopher Gonzalez ####
 
 A Feistel cipher that uses md5 for nonlinearity. Also uses key whitening.
 Takes arbitrarily sized key and input file. Can also take directories as input.
@@ -54,4 +54,4 @@ I/O Options:
 
 ## Structure: ##
 ![I❤️flowcharts](https://raw.githubusercontent.com/wsagehorn/bagel-cipher/master/bagelcipher.png)
-note:flowchart based largely on the one on the wikipedia page for Feistel ciphers
+(note: flowchart based largely on the one on the wikipedia page for Feistel ciphers)
